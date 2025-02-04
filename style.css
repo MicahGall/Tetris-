@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#tetris {
+    position: relative;
+}
+
+canvas {
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 20px;
+}
